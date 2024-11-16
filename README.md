@@ -121,3 +121,29 @@ Custom configuration for the [Inline Bookmarks](https://marketplace.visualstudio
         }
     }
 }
+```
+# Available Bookmarks
+
+| Bookmark | Color | Usage |
+|----------|--------|-------|
+| `@audit-critical` | Dark Red/Brown | Critical severity findings |
+| `@audit-high` | Bright Red | High severity findings |
+| `@audit-medium` | Orange | Medium severity findings |
+| `@audit-low` | Green | Low severity findings |
+| `@audit-info` | Blue | Informational findings |
+| `@fp` | Green | False positives |
+| `@reported` | Grey | Issues already reported |
+| `@todo` | Purple | Tasks to be done |
+| `@note` | Pink | General notes |
+
+# Usage Example
+```solidity
+// @audit-critical Reentrancy in main withdrawal function
+// @audit-high Incorrect slippage calculation
+// @audit-medium Lack of input validation
+// @audit-low Magic numbers in configuration
+// @audit-info Consider adding events for better tracking
+// @fp False positive: Safe delegate call pattern
+// @reported Already submitted in previous audit
+// @todo Need to check edge cases
+// @note Architecture decision explained here
