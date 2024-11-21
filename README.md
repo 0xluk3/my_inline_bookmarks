@@ -20,7 +20,8 @@ Custom configuration for the [Inline Bookmarks](https://marketplace.visualstudio
         "darkred": ["@audit\\-critical[ \\t\\n]"],
         "orange": ["@audit\\-medium[ \\t\\n]"],
         "grey": ["@reported[ \\t\\n]"],
-        "pink": ["@note[ \\t\\n]"]
+        "pink": ["@note[ \\t\\n]"],
+        "darkorange": ["@audit[ \\t\\n]"]
     },
     "inline-bookmarks.expert.custom.styles": {
         "blue": {
@@ -116,6 +117,18 @@ Custom configuration for the [Inline Bookmarks](https://marketplace.visualstudio
             },
             "dark": {
                 "color": "#FFB6C1",
+                "fontWeight": "bold"
+            }
+        },
+        "darkorange": {
+            "gutterIconColor": "#FF531A",
+            "overviewRulerColor": "#FF531AB0",
+            "light": {
+                "color": "#FF531A",
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "#FF531A",
                 "fontWeight": "bold"
             }
         }
