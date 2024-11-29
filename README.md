@@ -15,7 +15,7 @@ Custom configuration for the [Inline Bookmarks](https://marketplace.visualstudio
     "inline-bookmarks.expert.custom.words.mapping": {
         "blue": ["@audit\\-info[ \\t\\n]"],
         "purple": ["@todo[ \\t\\n]"],
-        "green": ["@fp[ \\t\\n]", "@audit\\-low[ \\t\\n]"],
+        "green": ["@fp[ \\t\\n]", "@audit\\-low[ \\t\\n]", "@audit\\-ok[ \\t\\n]"],
         "red": ["@audit\\-high[ \\t\\n]"],
         "darkred": ["@audit\\-critical[ \\t\\n]"],
         "orange": ["@audit\\-medium[ \\t\\n]"],
