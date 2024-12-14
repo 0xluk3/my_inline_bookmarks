@@ -15,13 +15,14 @@ Custom configuration for the [Inline Bookmarks](https://marketplace.visualstudio
     "inline-bookmarks.expert.custom.words.mapping": {
         "blue": ["@audit\\-info[ \\t\\n]"],
         "purple": ["@todo[ \\t\\n]"],
-        "green": ["@fp[ \\t\\n]", "@audit\\-low[ \\t\\n]", "@audit\\-ok[ \\t\\n]"],
+        "green": ["@audit\\-low[ \\t\\n]"],
         "red": ["@audit\\-high[ \\t\\n]"],
         "darkred": ["@audit\\-critical[ \\t\\n]"],
         "orange": ["@audit\\-medium[ \\t\\n]"],
         "grey": ["@reported[ \\t\\n]"],
         "light-grey": ["@note[ \\t\\n]"],
-        "darkorange": ["@audit[ \\t\\n]"]
+        "darkorange": ["@audit[ \\t\\n]"],
+        "mauve": ["@fp[ \\t\\n]", "@audit\\-ok[ \\t\\n]"]
     },
     "inline-bookmarks.expert.custom.styles": {
         "blue": {
@@ -131,6 +132,18 @@ Custom configuration for the [Inline Bookmarks](https://marketplace.visualstudio
                 "color": "#FF531A",
                 "fontWeight": "bold"
             }
+        },
+        "mauve": {
+            "gutterIconColor": "#8a6b6b",
+            "overviewRulerColor": "#8a6b6bB0",
+            "light": {
+                "color": "#8a6b6b",
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "#8a6b6b",
+                "fontWeight": "bold"
+            }
         }
     }
 }
@@ -144,10 +157,12 @@ Custom configuration for the [Inline Bookmarks](https://marketplace.visualstudio
 | `@audit-medium` | Orange | Medium severity findings |
 | `@audit-low` | Green | Low severity findings |
 | `@audit-info` | Blue | Informational findings |
-| `@fp` | Green | False positives |
+| `@audit-ok` | Brown | False positives |
+| `@audit` | Dark Orange | Needs attention - to audit |
+| `@fp` | Brown | False positives |
 | `@reported` | Grey | Issues already reported |
 | `@todo` | Purple | Tasks to be done |
-| `@note` | Pink | General notes |
+| `@note` | White | General notes |
 
 # Usage Example
 ```solidity
